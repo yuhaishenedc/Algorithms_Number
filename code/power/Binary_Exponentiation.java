@@ -2,11 +2,6 @@ package power;
 
 public class Binary_Exponentiation {
 
-    public static void main(String[] args) {
-        System.out.println(pow_mod(2,10,2047));
-    }
-
-
     //快速幂算法
     public static int pow(int a,int b){
         int ret=1;
